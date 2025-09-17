@@ -9,6 +9,7 @@ public class day6_task2 {
                average=total/marks.length;
                if(marks[i]<=35){
                 System.out.println("Fail");
+                   break;
                }
     }
              System.out.println("The total marks is:" +total);
@@ -27,4 +28,5 @@ public class day6_task2 {
                 System.out.println("Grade:D");}
         }
     }
+
 
